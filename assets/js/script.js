@@ -1,18 +1,4 @@
-/* 
-let contador = 0;
 
-
-const botao = document.getElementById('meuBotao');
-const textoContador = document.getElementById('contagem');
-
-
-botao.addEventListener('click', () => {
-  
-    if (contador < 10) {
-        contador++; 
-        textoContador.textContent = `${contador} inscritos`;
-    }
-});*/
  
 
 let vagas = 10;
