@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #051f46;
+}
+
+
+#inscricao {
+    background-color: #2832c0;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+
+#inscricao h1 {
+    font-size: 1.4rem;
+    color: #fdfcfc;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+
+#inscricao h2 {
+    font-size: 1rem;
+    color: #fffefe;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#inscritos, #contagem {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fcfcfc; 
+    margin-bottom: 25px;
+}
+
+
+#meuBotao, button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+
+#meuBotao:hover, button:hover {
+    background-color: #0655a5;
+}
+
+/* Efeito de clique no botão */
+#meuBotao:active, button:active {
+    transform: scale(0.98);
+}
