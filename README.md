@@ -24,4 +24,4 @@ Projeto desenvolvido como parte do programa **Transforme-se (Serasa Experian)** 
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/eder64ghjhj/transforme-se-contador-inscri-o.git](https://github.com/eder64ghjhj/transforme-se-contador-inscri-o.git)
+   git clone [https://github.com/eder64ghjhj/transforme-se-contador-inscricao.git](https://github.com/eder64ghjhj/transforme-se-contador-inscricao.git)
